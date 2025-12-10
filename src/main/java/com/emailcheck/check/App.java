@@ -39,7 +39,7 @@ public class App {
             protected PasswordAuthentication getPasswordAuthentication() {
                 // Use APP PASSWORD here
                 return new PasswordAuthentication("devworkspace803@gmail.com",
-                                                  "pnis mumr rbhe fbeg");
+                                                  "**** **** **** ****");
             }
         });
 
