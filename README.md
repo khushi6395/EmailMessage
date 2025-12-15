@@ -13,7 +13,7 @@ It can be used as a base for applications such as notification systems, password
 * **Java**
 * **JavaMail API**
 * **SMTP Protocol**
-* **Maven / External JARs** (if applicable)
+* **Maven / External JARs** 
 * **Gmail SMTP Server** (or any other email provider)
 
 ---
@@ -41,7 +41,7 @@ EmailMessagingProject
 │   └── javax.mail.jar
 │
 ├── README.md
-└── pom.xml (if using Maven)
+└── pom.xml 
 ```
 
 ---
@@ -51,10 +51,7 @@ EmailMessagingProject
 1. Enable **Less Secure App Access** or **App Password** in your email account.
 2. Update sender email credentials in the code:
 
-   ```java
-   final String senderEmail = "your-email@gmail.com";
-   final String senderPassword = "your-app-password";
-   ```
+   
 3. Set receiver email address and message content.
 
 ---
@@ -62,7 +59,7 @@ EmailMessagingProject
 ## ▶️ How to Run the Project
 
 1. Clone or download the project.
-2. Open it in any Java IDE (Eclipse / IntelliJ / NetBeans).
+2. Open it in  Java IDE (Eclipse ).
 3. Add JavaMail API JAR files to the build path (if not using Maven).
 4. Compile and run the `Main.java` file.
 
@@ -76,28 +73,13 @@ Email sent successfully!
 
 ---
 
-## 🔐 Security Note
-
-* Do **not** expose your email password in public repositories.
-* Use environment variables or app passwords for better security.
-
 ---
 
 ## 🚀 Future Enhancements
 
 * Attachments support
 * HTML-based email templates
-* Multiple recipients (CC/BCC)
+
 * Integration with database
-
----
-
-## 👩‍💻 Author
-
-**Khushi**
-
----
-
-## 📄 License
 
 This project is for educational purposes only.
